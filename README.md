@@ -1,5 +1,5 @@
 
-## Go to out->artifacts->freshworkassignment->freshworkassignment.jar
+## Go to out -> artifacts -> freshworkassignment -> freshworkassignment.jar
 
 ### How to Use? 
 
@@ -11,5 +11,7 @@
 ###### 4 - readJSONObject(String key) is used to read the data.
 ###### 5 - delete(String key) is used to delete the data.
 
-######  Note: a) Max key length is ***32 char*** & max JSON object size is *16 kb *
-######        b) Max database file size is *1 GB*
+######  Note: 
+###### a) Max key length is ***32 char*** & max JSON object size is *16 kb *
+###### b) Max database file size is *1 GB*
+###### c) This library cannot be used by more than one client and methods are thread safe.
