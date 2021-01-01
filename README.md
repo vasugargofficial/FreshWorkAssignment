@@ -10,3 +10,6 @@
 ###### 3 - create(String key, JSONObject jsonObject, int timeToLive) is used is used to add data with timetolive functionality.
 ###### 4 - readJSONObject(String key) is used to read the data.
 ###### 5 - delete(String key) is used to delete the data.
+
+## Note: a) Max key length is *32 char* & max JSON object size is *16 kb *
+##       b) Max database file size is *1 GB*
