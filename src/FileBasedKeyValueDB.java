@@ -151,7 +151,6 @@ public class FileBasedKeyValueDB {
                     new_pair.put(key, jsonObject);
                     objectsList.add(new_pair);
                     FileWriter file = new FileWriter(db_path + "/db.json");
-                    TimeUnit.MINUTES.sleep(1);
                     file.write(objectsList.toJSONString());
                     file.close();
                     System.out.println("Data Added Successfully");
