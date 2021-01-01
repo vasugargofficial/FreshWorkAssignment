@@ -1,6 +1,11 @@
 
 ## Go to out -> artifacts -> freshworkassignment -> freshworkassignment.jar
 
+## System Requirenment
+###### 1) ubuntu 19.04
+###### 2) Java
+###### 3) Any IDLE to import this .jar as library.
+
 ### How to Use? 
 
 ###### 1 - Initialized the object of class FileBasedKeyValueDB.
